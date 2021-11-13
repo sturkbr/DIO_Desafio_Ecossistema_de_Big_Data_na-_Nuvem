@@ -1,0 +1,8 @@
+O ecossistema foi criado conforme as orientações recebidas. No entanto, a execução do código python retornou um erro.
+
+python dio-live-wordcount-test.py -r emr s3://dio-live-datalake-st/data/sherlock.txt --output-dir=s3://dio-live-datalake-st/output/logs1 --cloud-tmp-dir=s3://dio-live-datalake-st/temp/
+
+Terminating cluster: j-3FSYLN0V6BMUV
+File "/home/sturkbr/venv_diolive/lib/python3.8/site-packages/botocore/client.py", line 719, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (ValidationException) when calling the AddJobFlowSteps operation: A job flow that is shutting down, terminated, or finished may not be modified.
